@@ -1,0 +1,24 @@
+{
+    "Data": [
+        {
+            "id": 0,
+            "title": "Wiadomość numer 1",
+            "body": "Treść wiadomości numer 1..."
+        },
+        {
+            "id": 1,
+            "title": "Wiadomość numer 2",
+            "body": "Treść wiadomości numer 2..."
+        },
+        {
+            "id": 2,
+            "title": "Wiadomość numer 3",
+            "body": "Treść wiadomości numer 3..."
+        },
+        {
+            "id": 3,
+            "title": "Wiadomość numer 4",
+            "body": "Treść wiadomości numer 4..."
+        }
+    ]
+}

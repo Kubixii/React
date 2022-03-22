@@ -1,0 +1,15 @@
+.task{
+    margin:auto;
+    width:80%;
+    border-top:solid slategrey 1px;
+    padding:0.5%;
+}
+.closeToDueDate{
+    animation: animate 1s infinite;
+}
+
+@keyframes animate {
+    0%   {color:black}
+    50%  {color:red}
+    100% {color:black;}
+  }

@@ -1,0 +1,49 @@
+#leftbutton,#rigthbutton{
+    height:65vh;
+    width:20vmax;
+    font-size: xx-large;
+    background-color:black;
+    /* border:solid lime 1px; */
+    padding-top:12%;
+    padding-bottom: 12%;
+    border:none;
+    cursor: pointer;
+    color:white
+}
+#mainImage{
+    text-align: center;
+}
+#leftbutton:hover,#rigthbutton:hover{
+    background-color: #141414;
+}
+#leftbutton{
+    float:left;
+}
+#rigthbutton{
+    float:right;
+}
+#bigImageWrapper{
+    display:inline;
+}
+#currentImage{
+    display: inline;
+}
+#bigImage{
+    height:65vh;
+}
+#prevImage,#nextImage{
+    width:33%;
+    /* display:none; */
+    display: inline;
+    border:solid red 1px;
+}
+#thumbnails{
+    text-align:center;
+}
+.thumbnail{
+    cursor: pointer;
+    margin:1%;
+    padding:0.5%;
+    display:inline;
+    width:5%;
+}

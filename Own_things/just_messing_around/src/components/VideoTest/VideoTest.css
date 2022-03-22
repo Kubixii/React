@@ -1,0 +1,8 @@
+iframe>video{
+    height:400px;
+}
+#duration{
+    height:10px;
+    background-color:red;
+    transition: width 1s;
+}

@@ -1,0 +1,10 @@
+ul>li{
+    list-style-type: none;
+    display:inline;
+    padding:1%;
+    cursor:pointer
+}
+li>a{
+    color:lime;
+    text-decoration: none;
+}

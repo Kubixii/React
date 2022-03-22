@@ -1,0 +1,16 @@
+.formInput{
+    display:block;
+    margin:1%
+}
+.formInput>span{
+    color:red;
+}
+#form{
+    text-align:center;
+    border-bottom:solid black 1px;
+}
+input[type="submit"]{
+    border:solid black 1px;
+    background-color: lightcyan;
+    padding:0.5%;
+}

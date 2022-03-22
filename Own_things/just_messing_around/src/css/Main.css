@@ -1,0 +1,9 @@
+#return{
+    color:lime;
+    border:solid lime 2px;
+    background-color: black;
+    cursor: pointer;
+}
+#profilePicture{
+    width:10%;
+}

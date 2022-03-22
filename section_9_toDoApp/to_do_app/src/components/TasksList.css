@@ -1,0 +1,14 @@
+#TasksList{
+    text-align: center;
+    border-bottom:solid black 1px;
+    padding:0.5%;
+}
+#completedTasksList{
+    text-align:center;
+}
+.important{
+    color:red
+}
+p>span{
+    font-weight: bold;
+}

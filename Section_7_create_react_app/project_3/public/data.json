@@ -1,0 +1,20 @@
+{
+    "lesson": "animals",
+    "words": [
+        {
+            "id": 0,
+            "pl": "kot",
+            "en": "cat"
+        },
+        {
+            "id": 3,
+            "pl": "pies",
+            "en": "dog"
+        },
+        {
+            "id": 2,
+            "pl": "ryba",
+            "en": "fish"
+        }
+    ]
+}

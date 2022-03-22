@@ -1,0 +1,15 @@
+#contact>form>textarea{
+    width:80%;
+    height:15vh;
+}
+#contact>*{
+    padding:1%;
+}
+
+#contact button[type='submit']{
+    padding:1%;
+    border:solid black 2px;
+    display: block;
+    margin:0 20% 0 auto;
+    cursor: pointer;
+}

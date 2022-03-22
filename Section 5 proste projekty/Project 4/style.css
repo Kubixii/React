@@ -1,0 +1,32 @@
+ul{
+    padding:0.5%;
+    margin:1%;
+    background-color:lightblue
+}
+ul>li{
+    width:85%;
+    cursor:pointer;
+    padding:2%;
+    margin:1%;
+    background-color:yellowgreen;
+}
+.purchaseAmountButton{
+    margin-top:-4.5%;
+    float:right;
+    width:10%;
+}
+.purchaseAmountButton>label{
+    padding:4%;
+}
+.purchaseAmountButton > input{
+    padding:5%;
+    width:20%;
+}
+.selected{
+    color:black;
+    background-color:gray;
+}
+.unselected{
+    color:gray;
+    background-color:whitesmoke;
+}

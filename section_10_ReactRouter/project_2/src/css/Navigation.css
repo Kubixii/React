@@ -1,0 +1,47 @@
+#navigation{
+    width:20%;
+    display: inline;
+}
+ul{
+    list-style-type:none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li{
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.navElementWrapper{
+    display:inline;
+    position:relative;
+    padding-left:0.5%;
+    text-align:center;
+    width:auto;
+    left:0px;
+    animation-name: navigationAnimOut;
+    animation-duration: 0.3s;
+}
+li>a{
+    line-height: 30px;
+    border-left:solid lightgray 6px;
+    padding:1%;
+    text-decoration:none ;
+}
+li>a:hover>.navElementWrapper{
+    animation-name: navigationAnimIn;
+    animation-duration: 0.3s;
+    left:20px;
+}
+.active{
+    border-left:solid limegreen 6px;
+}
+
+@keyframes navigationAnimIn{
+    from {left:0px}
+    to {left:20px}
+}
+
+@keyframes navigationAnimOut{
+    from {left:20px}
+    to {left:0px}
+}

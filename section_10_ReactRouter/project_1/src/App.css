@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding: 0;
+}
+nav{
+  font-family:Arial;
+  background-color: darkblue;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+}
+.navElementWrapper{
+  flex-grow: 1;
+}
+li{
+  padding:1%;
+}
+a{
+  color:coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  animation-duration: 2s;
+}
+.indicator{
+  width:0%;
+  margin:auto;
+  border-bottom:solid linen 2px;
+}
+.navElementWrapper:hover,.active{
+  color:linen;
+}
+.navElementWrapper:hover>.indicator, .active>.navElementWrapper>.indicator{
+  width:100%;
+  animation-name: animTest;
+  animation-duration: 0.3s;
+}
+section{
+  padding:1%;
+  width:70%;
+  margin:auto;
+  text-align:center
+}
+
+@keyframes animTest{
+  from {width:0%;}
+  to {width:100%;}
+}

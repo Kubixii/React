@@ -1,0 +1,21 @@
+#controls{
+    display: inline;
+}
+li{
+    list-style-type: number;
+    font-weight: bold;
+    font-size:150%;
+}
+li>span{
+    font-weight: lighter;
+}
+p, button{
+    text-align:center;
+    font-size:150%;
+}
+button{
+    border:solid black 1px;
+    background-color: white;
+    padding:1%;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+#content{
+    display:flex;
+    flex-direction: column;
+}
+#content >article{
+    padding:1%;
+}
+
+#content >article>h1{
+    padding:1%;
+}
+#content >article>p{
+    padding:0.5%;
+}
+.articleContents{
+    padding:0.5%;
+}

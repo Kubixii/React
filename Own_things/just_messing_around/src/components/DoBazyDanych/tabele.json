@@ -1,0 +1,116 @@
+{
+    "tabele": [
+        {
+            "nazwa": "TWORCY",
+            "pola": [
+                "TWO_ID",
+                "TWO_Imie",
+                "TWO_Nazwisko",
+                "TWO_Email",
+                "TWO_Nick",
+                "TWO_Haslo"
+            ]
+        },
+        {
+            "nazwa": "ZAPISY",
+            "pola": [
+                "ZAP_ID",
+                "ZAP_KUR_ID",
+                "ZAP_KURS_ID",
+                "ZAP_Data"
+            ]
+        },
+        {
+            "nazwa": "KURSANCI",
+            "pola": [
+                "KUR_ID",
+                "KUR_Imie",
+                "KUR_Nazwisko",
+                "KUR_Email",
+                "KUR_Nick",
+                "KUR_Haslo",
+                "KUR_Telefon",
+                "KUR_Data_dolaczenia"
+            ]
+        },
+        {
+            "nazwa": "WSZYSCY_UZYTKOWNICY",
+            "pola": [
+                "UZY_ID",
+                "UZY_KUR_ID",
+                "UZY_TWO_ID"
+            ]
+        },
+        {
+            "nazwa": "KURSY",
+            "pola": [
+                "KURS_ID",
+                "KURS_KAT_ID",
+                "KURS_TWO_ID",
+                "KURS_Srednia_opinia",
+                "KURS_Nazwa"
+            ]
+        },
+        {
+            "nazwa": "KATEGORIE",
+            "pola": [
+                "KAT_ID",
+                "KAT_Nazwa"
+            ]
+        },
+        {
+            "nazwa": "KOMENTARZE",
+            "pola": [
+                "KOM_ID",
+                "KOM_UZY_ID",
+                "KOM_KURS_ID",
+                "KOM_Tresc",
+                "KOM_Data"
+            ]
+        },
+        {
+            "nazwa": "TESTY",
+            "pola": [
+                "TES_ID",
+                "TES_KURS_ID",
+                "TES_Max_punktow"
+            ]
+        },
+        {
+            "nazwa": "OCENY",
+            "pola": [
+                "OCE_ID",
+                "OCE_KUR_ID",
+                "OCE_TES_ID",
+                "OCE_Ocena",
+                "OCE_Data"
+            ]
+        },
+        {
+            "nazwa": "OPINIE_KURSOW",
+            "pola": [
+                "OPI_ID",
+                "OPI_KURS_ID",
+                "OPI_KUR_ID",
+                "OPI_Ocena"
+            ]
+        },
+        {
+            "nazwa": "PYTANIA",
+            "pola": [
+                "PYT_ID",
+                "PYT_TES_ID",
+                "PYT_Tresc"
+            ]
+        },
+        {
+            "nazwa": "ODPOWIEDZI",
+            "pola": [
+                "ODP_ID",
+                "ODP_PYT_ID",
+                "ODP_Tresc",
+                "ODP_Czy_Prawidlowa"
+            ]
+        }
+    ]
+}
